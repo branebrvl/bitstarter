@@ -2,12 +2,14 @@
   "name": "node-example",
   "version": "0.0.1",
   "dependencies": {
-    "express": "2.5.x",
-    "cheerio": "~0.12.0",
-    "commander": "~1.2.0"
   },
   "engines": {
     "node": "0.8.x",
     "npm": "1.1.x"
+  }
+  "dev":{
+      "express": "2.5.x",
+      "cheerio": "~0.12.0",
+      "commander": "~1.2.0"
   }
 }
